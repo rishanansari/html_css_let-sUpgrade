@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>table creation</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid mediumaquamarine;
+        text-align: center;
+        padding: 10px;
+      }
+      .myTable {
+        width: 100%;
+        background-color: darkgrey;
+      }
+      .myTable th {
+        color: brown;
+        background-color: cornsilk;
+      }
+      .myTable td {
+        color: blue;
+        background-color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center">Basic Table</h1>
+    <table class="myTable">
+      <thead>
+        <tr>
+          <th>Sr.No</th>
+          <th colspan="2">Name & Company Name</th>
+          <!-- <th>company</th> -->
+          <th>Post</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Samir</td>
+          <td rowspan="2">Accenture</td>
+          <td>Web Developer</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Abid</td>
+          <td>Web Developer Analyst</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Adil</td>
+          <td>Infosys</td>
+          <td>Sr.Developer</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Israr</td>
+          <td>Arcon</td>
+          <td>Hvac Engineer</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Razi</td>
+          <td>Self</td>
+          <td>Extc Engineer</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
