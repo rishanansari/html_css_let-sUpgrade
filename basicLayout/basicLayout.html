@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Layout</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      main,
+      nav,
+      header,
+      section,
+      aside,
+      footer {
+        border: 1px solid black;
+        text-align: center;
+      }
+      .logo {
+        width: 10%;
+        margin: 4px 0px 2px 0px;
+      }
+      .header {
+        background-color: azure;
+      }
+      .nav a {
+        text-decoration: none;
+        margin: 0px 5px 0px 5px;
+      }
+      .section {
+        height: 300px;
+        background-image: url("https://as1.ftcdn.net/v2/jpg/04/84/12/58/1000_F_484125883_S5jwiAdobVVhWRmNCN2L27EAEuiTY11m.jpg");
+      }
+      .leftsidebar {
+        float: left;
+        width: 30%;
+        margin-left: 5px;
+        height: 200px;
+        overflow: scroll;
+      }
+      .rightsidebar {
+        float: right;
+        width: 30%;
+        margin-right: 5px;
+        height: 200px;
+        overflow: scroll;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- here we are use semantic tags to describe the layout -->
+    <main id="main" class="main">
+      <header class="header">
+        <img src="img/logo1.png" alt="logo" class="logo" />
+      </header>
+      <br />
+      <nav class="nav">
+        <h2>Navigation bar</h2>
+        <a href="#">Home</a> <a href="#">Our Services</a>
+        <a href="#">About Us</a> <a href="#">Contact Us</a>
+      </nav>
+      <br />
+      <section class="section">
+        <h2>Middle section</h2>
+        <aside class="leftsidebar">
+          <h4>left a side bar</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati
+            suscipit dolorum nemo minus voluptatum quos aliquid iste nihil
+            nesciunt hic, enim possimus laborum. Aperiam, perferendis maiores!
+            Hic eligendi molestias facere!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati
+            suscipit dolorum nemo minus voluptatum quos aliquid iste nihil
+            nesciunt hic, enim possimus laborum. Aperiam, perferendis maiores!
+            Hic eligendi molestias facere!
+          </p>
+        </aside>
+        <aside class="rightsidebar">
+          <h4>right a side bar</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati
+            suscipit dolorum nemo minus voluptatum quos aliquid iste nihil
+            nesciunt hic, enim possimus laborum. Aperiam, perferendis maiores!
+            Hic eligendi molestias facere!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati
+            suscipit dolorum nemo minus voluptatum quos aliquid iste nihil
+            nesciunt hic, enim possimus laborum. Aperiam, perferendis maiores!
+            Hic eligendi molestias facere!
+          </p>
+        </aside>
+      </section>
+      <br />
+      <footer>
+        footer
+        <h4>&copy;copyrights: 2023</h4>
+      </footer>
+    </main>
+  </body>
+</html>
