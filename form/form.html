@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <form action="#" method="get" id="form">
+      <table border="1" id="table" cellspacing="0">
+        <th colspan="2" class="header">Enrollment form</th>
+        <tr>
+          <td>First Name</td>
+          <td>
+            <input
+              type="text"
+              name="fName"
+              id="fName"
+              placeholder="Enter First Name"
+              size="50"
+              autocomplete="off"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Last Name</td>
+          <td>
+            <input
+              type="text"
+              name="lName"
+              id="lName"
+              placeholder="Enter Last Name"
+              size="50"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Email-ID</td>
+          <td>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Your Email-Id"
+              size="50"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Password</td>
+          <td>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Enter Password"
+              size="50"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>D.O.B</td>
+          <td>
+            <input type="date" name="dob" id="dob" />
+          </td>
+        </tr>
+        <tr>
+          <td>Qualification</td>
+          <td class="qualification">
+            <label for="master">Master Degree</label>
+            <input type="checkbox" name="master" id="master" />
+            <label for="bachelor">Bachelor Degree</label>
+            <input type="checkbox" name="bachelor" id="bachelor" />
+            <label for="hsc">HSC</label>
+            <input type="checkbox" name="hsc" id="hsc" />
+            <label for="ssc">SSC</label>
+            <input type="checkbox" name="ssc" id="ssc" />
+          </td>
+        </tr>
+        <tr>
+          <td>Gender</td>
+          <td class="gender">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" />
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" />
+          </td>
+        </tr>
+        <tr>
+          <td>Salary</td>
+          <td>
+            <select name="salary" id="salary">
+              <option value="select">Select Type</option>
+              <option value="salaried">Salaried</option>
+              <option value="nonSalaried">Non Salaried</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="submit" class="submit" />
+            <input type="reset" class="reset" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
