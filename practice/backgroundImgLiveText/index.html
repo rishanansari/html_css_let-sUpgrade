@@ -11,6 +11,9 @@
         height: 400px;
         background-size: contain;
         margin: 0 auto;
+        border-radius: 20px;
+        box-shadow: 0px 0px 5px orange;
+        background-image: url("https://img.freepik.com/premium-photo/cup-hot-tea-with-steam-dark_101125-822.jpg?size=626&ext=jpg&ga=GA1.2.1266992287.1676545285&semt=ais");
       }
       .head {
         color: aquamarine;
@@ -24,16 +27,16 @@
         box-shadow: 0 0 8px 1px greenyellow;
         margin: 200px 0px 0px 300px;
       }
+      .button:hover {
+        box-shadow: 0 0 8px 2px white;
+        background-color: greenyellow;
+        transition: all 1000ms;
+      }
     </style>
   </head>
   <body>
     <div style="border: 1px solid black; padding: 10px 0px">
-      <div
-        class="img"
-        style="
-          background-image: url(https://img.freepik.com/premium-photo/cup-hot-tea-with-steam-dark_101125-822.jpg?size=626&ext=jpg&ga=GA1.2.1266992287.1676545285&semt=ais);
-        "
-      >
+      <div class="img">
         <h2 class="head">
           A Tea With Coder <br />
           <span style="font-style: italic; color: orange">Let's Upgrade</span>
@@ -42,7 +45,7 @@
             >Buy a Tea at Rs.10/-</span
           >
         </h2>
-        <button class="button">get your tea</button>
+        <button class="button">Get your Tea</button>
       </div>
     </div>
   </body>
