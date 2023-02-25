@@ -1,0 +1,128 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+a:hover {
+  text-decoration: underline;
+}
+.container {
+  height: 100vh;
+}
+.navbar {
+  padding: 8px 0px;
+  text-align: right;
+}
+.navbar a {
+  margin: 0px 10px 0px 0px;
+  color: #3c4043;
+}
+.navbar i {
+  margin: 0px 10px 0px 0px;
+  padding: 5px;
+  border-radius: 50%;
+  color: #3c4043;
+  background-color: #f8f9fa;
+}
+.navbar i:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.google span {
+  margin: 0px;
+  padding: 0px;
+}
+.google {
+  padding: 10px 0px;
+  text-align: center;
+}
+.google img {
+  width: 280px;
+}
+.searchbar {
+  display: flex;
+  padding: 10px 0px;
+  /* border: 1px solid gray; */
+}
+.search:hover {
+  box-shadow: 0px 2px 8px lightgray;
+}
+.search {
+  margin: 0px auto;
+  display: flex;
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: 1px solid lightgray;
+}
+.search input {
+  border: none;
+  outline: none;
+}
+.search i {
+  margin: 0px 5px;
+  color: gray;
+  cursor: pointer;
+}
+.buttons {
+  display: flex;
+  padding: 10px 0px;
+}
+.buttonstyle {
+  margin: 0px auto;
+}
+.buttonstyle button {
+  border: none;
+  color: #3c4043;
+  font-size: 16px;
+  margin: 0px 4px;
+  border: 1px solid #f8f9fa;
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.buttonstyle button:hover {
+  box-shadow: 0px 0px 2px 0px grey;
+  cursor: pointer;
+}
+.lang {
+  text-align: center;
+  padding: 5px;
+  font-size: 14px;
+  color: #3c4043;
+}
+.lang a {
+  margin: 0px 2px;
+  font-size: 12px;
+}
+.footer {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  background-color: #f8f9fa;
+}
+.india {
+  padding: 15px 30px;
+  color: gray;
+}
+.footer_bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.about {
+  padding: 15px 20px;
+}
+.about a {
+  /* margin: 0px 8px; */
+  padding: 10px 15px;
+  color: gray;
+}
+.setting {
+  padding: 15px 20px;
+}
+.setting a {
+  color: gray;
+  padding: 10px 15px;
+}
